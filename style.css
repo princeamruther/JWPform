@@ -1,0 +1,82 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    color: #6a1b9a; /* Deep purple text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #f8bbd0; /* Light pink */
+    color: #6a1b9a; /* Deep purple text */
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button for adding a new goal */
+.add-goal {
+    background-color: #e91e63; /* Bright pink */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.add-goal:hover {
+    background-color: #d81b60; /* Darker pink on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+ul#bucket-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#bucket-list li {
+    background-color: #f3e5f5; /* Light lavender background */
+    color: #6a1b9a; /* Deep purple text */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+}
+
+/* Remove goal link */
+ul#bucket-list li a {
+    color: #e91e63; /* Bright pink */
+    text-decoration: none;
+    float: right;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul#bucket-list li a:hover {
+    color: #d81b60; /* Darker pink on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8bbd0; /* Light pink */
+    color: #6a1b9a; /* Deep purple text */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em;
+}
